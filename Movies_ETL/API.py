@@ -1,5 +1,16 @@
 import requests
+from time import time
 
+def get_time(func):
+    def wrapper(*args, **kwargs):
+        Ti = time()
+        ret_val = func(*args, **kwargs)
+        Tf = time()
+        time_range = Tf - Ti
+        return ret_val, time_range
+    return wrapper
+
+@get_time
 def read_api(title):
 
     if not isinstance(title, str):

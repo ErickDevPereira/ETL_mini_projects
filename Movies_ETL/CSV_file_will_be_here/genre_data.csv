@@ -1,20 +1,3 @@
 ,Genre,Quantity,Score
-0,"Animation, Adventure, Comedy",3,6.83
-1,"Action, Adventure, Fantasy",2,5.9
-2,"Action, Adventure, Sci-Fi",2,6.5
-3,"Action, Adventure, Comedy",2,7.15
-4,"Biography, Drama, History",2,7.95
-5,"Adventure, Biography, Drama",1,6.6
-6,"Drama, Romance, Sci-Fi",1,7.0
-7,"Adventure, Mystery, Sci-Fi",1,7.0
-8,"Biography, Crime, Drama",1,6.7
-9,"Drama, Mystery, Sci-Fi",1,7.9
-10,"Adventure, Family, Fantasy",1,7.2
-11,"Animation, Comedy, Family",1,7.1
-12,"Biography, Drama",1,8.0
-13,"Comedy, Drama, Music",1,8.0
-14,"Crime, Drama, Thriller",1,6.5
-15,Drama,1,7.8
-16,"Action, Thriller",1,6.6
-17,"Comedy, Drama, Fantasy",1,6.2
-18,"Horror, Thriller",1,7.3
+0,"Adventure, Mystery, Sci-Fi",1,7.0
+1,"Action, Adventure, Comedy",1,8.0

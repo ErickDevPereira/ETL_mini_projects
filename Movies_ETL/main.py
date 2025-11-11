@@ -4,10 +4,13 @@ import utils
 import db.DDL as ddl
 import db.DML as dml
 import db.DQL as dql
+import time
 
 class Solution:
 
-    def __init__(self):
+    def __init__(self, MySQL_username, MySQL_password):
+        self.username = MySQL_username
+        self.password = MySQL_password
         self.namesDF = pd.read_csv('data_font/data.csv').loc[::1, ['Rank', 'Title']]
         self.namesDF.dropna(subset = ['Title'], inplace = True)
         self.from_api_to_DF()
@@ -17,12 +20,17 @@ class Solution:
     def from_api_to_DF(self):
         self.dataset_list = list()
         count = 1
+        t_start = time.time()
         for ind in self.namesDF.index:
-            if count <= 25:
-                data = API.read_api(self.namesDF.loc[ind, 'Title'])
+            if count <= 2:
+                print(f'Downloading data about the movie >> {self.namesDF.loc[ind, 'Title']}')
+                data, range_of_time = API.read_api(self.namesDF.loc[ind, 'Title'])
                 if data is not None:
                     self.dataset_list.append(data)
+                    print(f"'{self.namesDF.loc[ind, 'Title']}' downloaded succesfully (It took {range_of_time:.2f} sec)")
                     count += 1
+        t_end = time.time()
+        print(f'Time to download data from internet >> {t_end - t_start:.2f} seconds')
         self.Data = {
             'imdbID': [record['IMDB'] for record in self.dataset_list],
             'Title': [record['Title'] for record in self.dataset_list],
@@ -54,9 +62,9 @@ class Solution:
                 self.DetailsDF.loc[ind, 'Votes'] = 0
     
     def export_DF_to_DB(self):
-        ddl.rm_db('root', 'Ichigo007*')
-        ddl.create_everything('root', 'Ichigo007*')
-        self.db = ddl.define_conn('root', 'Ichigo007*')
+        ddl.rm_db(self.username, self.password)
+        ddl.create_everything(self.username, self.password)
+        self.db = ddl.define_conn(self.username, self.password)
         for ind in self.MoviesDF.index:
             dml.load_Movies(self.db, idbmID = self.MoviesDF.loc[ind, 'imdbID'],
                                 Title = self.MoviesDF.loc[ind, 'Title'],
@@ -81,23 +89,20 @@ class Solution:
     def execute_queries_and_export_to_csv(self):
         self.send_from_DB_to_CSV_per_unit(csv_path='CSV_file_will_be_here/genre_data.csv',
                                           dict_data = dql.get_genre_data(self.db))
-        '''self.genre_data = dql.get_genre_data(self.db)
-        self.genre_dataDF = pd.DataFrame(self.genre_data)
-        self.genre_dataDF.to_csv('CSV_file_will_be_here/genre_data.csv', index = False)'''
         self.send_from_DB_to_CSV_per_unit(csv_path='CSV_file_will_be_here/top10_scores.csv',
                                         dict_data = dql.get_top10_scores(self.db))
-        '''self.top10_data = dql.get_top10_scores(self.db)
-        self.top10_dataDF = pd.DataFrame(self.top10_data)
-        self.top10_dataDF.to_csv('CSV_file_will_be_here/top10_scores.csv', index = False)'''
         self.send_from_DB_to_CSV_per_unit(csv_path = 'CSV_file_will_be_here/year_data.csv',
                                         dict_data = dql.get_year_data(self.db))
-        '''self.year_data = dql.get_year_data(self.db)
-        self.year_dataDF = pd.DataFrame(self.year_data)
-        self.year_dataDF.to_csv('CSV_file_will_be_here/year_data.csv', index = False)'''
         self.send_from_DB_to_CSV_per_unit(csv_path = 'CSV_file_will_be_here/month_data.csv',
                                         dict_data = dql.get_month_data(self.db))
         self.send_from_DB_to_CSV_per_unit(csv_path = 'CSV_file_will_be_here/everything.csv',
                                         dict_data = dql.get_everything(self.db))
+        print('Proccess finished successfully\n Link to the API >> https://www.omdbapi.com/')
 
 if __name__ == '__main__':
-    sol = Solution()
+    username = input('MySQL Username >>  ')
+    password = input('MySQL Password >>  ')
+    try:
+        solution = Solution(username, password)
+    except Exception as e:
+        print(f"ATTENTION: Proccess wasn't finished do to an error:\n{e}")

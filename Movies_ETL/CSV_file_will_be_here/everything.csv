@@ -1,26 +1,3 @@
 ,IMDB,Title,Release_date,Duration,Genre,Score,Director,Writer,Language,Country,Votes
-0,tt1212428,The Lost City of Z,2017-04-21,141 min,"Adventure, Biography, Drama",6.60,James Gray,"James Gray, David Grann","English, Portuguese, Tupi, Spanish, German",United States,103964
-1,tt1355644,Passengers,2016-12-21,116 min,"Drama, Romance, Sci-Fi",7.00,Morten Tyldum,Jon Spaihts,"English, Spanish, Japanese, French","Hong Kong, Australia, United States",483360
-2,tt1386697,Suicide Squad,2016-08-05,123 min,"Action, Adventure, Fantasy",5.90,David Ayer,"David Ayer, John Ostrander","English, Japanese, Spanish","United States, Canada",749653
-3,tt1446714,Prometheus,2012-06-08,124 min,"Adventure, Mystery, Sci-Fi",7.00,Ridley Scott,"Jon Spaihts, Damon Lindelof, Dan O'Bannon","English, Gaelic","United Kingdom, United States",686571
-4,tt1628841,Independence Day: Resurgence,2016-06-24,120 min,"Action, Adventure, Sci-Fi",5.20,Roland Emmerich,"James A. Woods, Nicolas Wright, Dean Devlin","English, Mandarin, Russian","United States, India",196930
-5,tt1679335,Trolls,2016-11-04,92 min,"Animation, Adventure, Comedy",6.40,"Mike Mitchell, Walt Dohrn","Jonathan Aibel, Glenn Berger, Erica Rivinoja",English,"United States, India, United Kingdom, Germany",97374
-6,tt1800302,Gold,2017-01-27,120 min,"Biography, Crime, Drama",6.70,Stephen Gaghan,"Patrick Massett, John Zinman","English, Indonesian",United States,72435
-7,tt2015381,Guardians of the Galaxy,2014-08-01,121 min,"Action, Adventure, Comedy",8.00,James Gunn,"James Gunn, Nicole Perlman, Dan Abnett",English,"United States, United Kingdom",1340806
-8,tt2034800,The Great Wall,2017-02-17,103 min,"Action, Adventure, Fantasy",5.90,Yimou Zhang,"Carlo Bernard, Doug Miro, Tony Gilroy","English, Mandarin, Spanish","China, Japan, United States",156740
-9,tt2119532,Hacksaw Ridge,2016-11-04,139 min,"Biography, Drama, History",8.10,Mel Gibson,"Robert Schenkkan, Andrew Knight","English, Japanese",United States,655217
-10,tt2543164,Arrival,2016-11-11,116 min,"Drama, Mystery, Sci-Fi",7.90,Denis Villeneuve,"Eric Heisserer, Ted Chiang","English, Mandarin, Russian","Canada, United States",836259
-11,tt2709768,The Secret Life of Pets,2016-07-08,86 min,"Animation, Adventure, Comedy",6.50,Chris Renaud,"Cinco Paul, Ken Daurio, Brian Lynch",English,"Japan, United States",230647
-12,tt3183660,Fantastic Beasts and Where to Find Them,2016-11-18,132 min,"Adventure, Family, Fantasy",7.20,David Yates,J.K. Rowling,"English, Central Khmer","United Kingdom, United States, Canada",531437
-13,tt3470600,Sing,2016-12-21,108 min,"Animation, Comedy, Family",7.10,"Garth Jennings, Christophe Lourdelet",Garth Jennings,"English, Japanese","Japan, United States",206430
-14,tt3521164,Moana,2016-11-23,107 min,"Animation, Adventure, Comedy",7.60,"Ron Clements, John Musker, Don Hall","Jared Bush, Ron Clements, John Musker","English, French",United States,425722
-15,tt3741834,Lion,2017-01-06,118 min,"Biography, Drama",8.00,Garth Davis,"Saroo Brierley, Luke Davies","English, Hindi, Bengali","United Kingdom, Australia, United States",261221
-16,tt3748528,Rogue One: A Star Wars Story,2016-12-16,133 min,"Action, Adventure, Sci-Fi",7.80,Gareth Edwards,"Chris Weitz, Tony Gilroy, John Knoll",English,United States,739966
-17,tt3783958,La La Land,2016-12-25,128 min,"Comedy, Drama, Music",8.00,Damien Chazelle,Damien Chazelle,"English, Cantonese","United States, Hong Kong",735553
-18,tt3896738,Hounds of Love,2017-03-12,108 min,"Crime, Drama, Thriller",6.50,Ben Young,Ben Young,English,Australia,14033
-19,tt4034228,Manchester by the Sea,2016-12-16,137 min,Drama,7.80,Kenneth Lonergan,Kenneth Lonergan,English,United States,343388
-20,tt4196776,Jason Bourne,2016-07-29,123 min,"Action, Thriller",6.60,Paul Greengrass,"Paul Greengrass, Christopher Rouse, Robert Ludlum","English, Greek, German, Japanese","United States, China, Spain, Japan, Iceland, Germany, Italy",252924
-21,tt4680182,Colossal,2017-04-21,109 min,"Comedy, Drama, Fantasy",6.20,Nacho Vigalondo,Nacho Vigalondo,"English, Korean","United States, Spain, Canada, South Korea",72122
-22,tt4799064,Mindhorn,2017-03-05,89 min,"Action, Adventure, Comedy",6.30,Sean Foley,"Julian Barratt, Simon Farnaby",English,"United Kingdom, France, United States",13885
-23,tt4846340,Hidden Figures,2017-01-06,127 min,"Biography, Drama, History",7.80,Theodore Melfi,"Allison Schroeder, Theodore Melfi, Margot Lee Shetterly",English,United States,278285
-24,tt4972582,Split,2017-01-20,117 min,"Horror, Thriller",7.30,M. Night Shyamalan,M. Night Shyamalan,English,"United States, Japan",605255
+0,tt2015381,Guardians of the Galaxy,2014-08-01,121 min,"Action, Adventure, Comedy",8.00,James Gunn,"James Gunn, Nicole Perlman, Dan Abnett",English,"United States, United Kingdom",1340806
+1,tt1446714,Prometheus,2012-06-08,124 min,"Adventure, Mystery, Sci-Fi",7.00,Ridley Scott,"Jon Spaihts, Damon Lindelof, Dan O'Bannon","English, Gaelic","United Kingdom, United States",686571
