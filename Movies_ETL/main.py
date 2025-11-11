@@ -11,7 +11,7 @@ class Solution:
     def __init__(self, MySQL_username, MySQL_password):
         self.username = MySQL_username
         self.password = MySQL_password
-        self.namesDF = pd.read_csv('data_font/data.csv').loc[::1, ['Rank', 'Title']]
+        self.namesDF = pd.read_csv('data_source/data.csv')
         self.namesDF.dropna(subset = ['Title'], inplace = True)
         self.from_api_to_DF()
         self.export_DF_to_DB()
@@ -22,13 +22,12 @@ class Solution:
         count = 1
         t_start = time.time()
         for ind in self.namesDF.index:
-            if count <= 2:
-                print(f'Downloading data about the movie >> {self.namesDF.loc[ind, 'Title']}')
-                data, range_of_time = API.read_api(self.namesDF.loc[ind, 'Title'])
-                if data is not None:
-                    self.dataset_list.append(data)
-                    print(f"'{self.namesDF.loc[ind, 'Title']}' downloaded succesfully (It took {range_of_time:.2f} sec)")
-                    count += 1
+            print(f'{count} - Downloading data about the movie >> {self.namesDF.loc[ind, 'Title']}')
+            data, range_of_time = API.read_api(self.namesDF.loc[ind, 'Title'])
+            if data is not None:
+                self.dataset_list.append(data)
+                print(f"{count} - '{self.namesDF.loc[ind, 'Title']}' was downloaded succesfully (Download has taken {range_of_time:.2f} sec)\n...")
+                count += 1
         t_end = time.time()
         print(f'Time to download data from internet >> {t_end - t_start:.2f} seconds')
         self.Data = {
@@ -84,7 +83,7 @@ class Solution:
 
     def send_from_DB_to_CSV_per_unit(self, *, csv_path, dict_data):
         self.DF = pd.DataFrame(dict_data)
-        self.DF.to_csv(csv_path, index = True)
+        self.DF.to_csv(csv_path, index = False)
 
     def execute_queries_and_export_to_csv(self):
         self.send_from_DB_to_CSV_per_unit(csv_path='CSV_file_will_be_here/genre_data.csv',
@@ -97,7 +96,7 @@ class Solution:
                                         dict_data = dql.get_month_data(self.db))
         self.send_from_DB_to_CSV_per_unit(csv_path = 'CSV_file_will_be_here/everything.csv',
                                         dict_data = dql.get_everything(self.db))
-        print('Proccess finished successfully\n Link to the API >> https://www.omdbapi.com/')
+        print('\nProccess finished successfully\n Link to the API >> https://www.omdbapi.com/')
 
 if __name__ == '__main__':
     username = input('MySQL Username >>  ')
