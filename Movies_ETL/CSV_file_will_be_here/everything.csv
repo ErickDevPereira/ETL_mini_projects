@@ -1,0 +1,72 @@
+IMDB,Title,Release_date,Duration,Genre,Score,Director,Writer,Language,Country,Votes
+tt0119099,Fallen,1998-01-16,124 min,"Action, Crime, Drama",7.00,Gregory Hoblit,Nicholas Kazan,"English, Syriac, Assyrian Neo-Aramaic, Dutch",United States,99053
+tt0326716,5-25-77,2007-03-25,132 min,"Comedy, Drama",6.50,Patrick Read Johnson,Patrick Read Johnson,English,United States,1511
+tt0468569,The Dark Knight,2008-07-18,152 min,"Action, Crime, Drama",9.10,Christopher Nolan,"Jonathan Nolan, Christopher Nolan, David S. Goyer","English, Mandarin","United States, United Kingdom",3087450
+tt0482571,The Prestige,2006-10-20,130 min,"Drama, Mystery, Sci-Fi",8.50,Christopher Nolan,"Jonathan Nolan, Christopher Nolan, Christopher Priest",English,"United Kingdom, United States",1538383
+tt0490215,Silence,2017-01-13,161 min,"Drama, History",7.20,Martin Scorsese,"Jay Cocks, Martin Scorsese, Shûsaku Endô","English, Japanese, Latin","United Kingdom, Italy, Mexico, United States",130171
+tt0816692,Interstellar,2014-11-07,169 min,"Adventure, Drama, Sci-Fi",8.70,Christopher Nolan,"Jonathan Nolan, Christopher Nolan",English,"United States, United Kingdom, Canada",2423918
+tt1211837,Doctor Strange,2016-11-04,115 min,"Action, Adventure, Fantasy",7.50,Scott Derrickson,"Jon Spaihts, Scott Derrickson, C. Robert Cargill",English,"United States, Hong Kong, Nepal",860272
+tt1212428,The Lost City of Z,2017-04-21,141 min,"Adventure, Biography, Drama",6.60,James Gray,"James Gray, David Grann","English, Portuguese, Tupi, Spanish, German",United States,103964
+tt1298650,Pirates of the Caribbean: On Stranger Tides,2011-03-20,136 min,"Action, Adventure, Fantasy",6.60,Rob Marshall,"Ted Elliott, Terry Rossio, Stuart Beattie","English, Spanish","United States, United Kingdom",594656
+tt1355644,Passengers,2016-12-21,116 min,"Drama, Romance, Sci-Fi",7.00,Morten Tyldum,Jon Spaihts,"English, Spanish, Japanese, French","Hong Kong, Australia, United States",483360
+tt1366338,Lowriders,2017-04-28,98 min,"Adventure, Crime, Drama",5.70,Ricardo de Montreuil,"Elgin James, Cheo Hodari Coker",English,United States,2791
+tt1386697,Suicide Squad,2016-08-05,123 min,"Action, Adventure, Fantasy",5.90,David Ayer,"David Ayer, John Ostrander","English, Japanese, Spanish","United States, Canada",749653
+tt1392190,Mad Max: Fury Road,2015-03-15,120 min,"Action, Adventure, Sci-Fi",8.10,George Miller,"George Miller, Brendan McCarthy, Nick Lathouris","English, Russian","Australia, United States",1183848
+tt1431045,Deadpool,2016-02-12,108 min,"Action, Comedy, Sci-Fi",8.00,Tim Miller,"Rhett Reese, Paul Wernick",English,United States,1228663
+tt1446714,Prometheus,2012-06-08,124 min,"Adventure, Mystery, Sci-Fi",7.00,Ridley Scott,"Jon Spaihts, Damon Lindelof, Dan O'Bannon","English, Gaelic","United Kingdom, United States",686571
+tt1628841,Independence Day: Resurgence,2016-06-24,120 min,"Action, Adventure, Sci-Fi",5.20,Roland Emmerich,"James A. Woods, Nicolas Wright, Dean Devlin","English, Mandarin, Russian","United States, India",196930
+tt1661275,Their Finest,2017-04-07,117 min,"Comedy, Drama, Romance",6.80,Lone Scherfig,"Lissa Evans, Gaby Chiappe","English, Hungarian, Polish, French","United Kingdom, Sweden, France",21896
+tt1679335,Trolls,2016-11-04,92 min,"Animation, Adventure, Comedy",6.40,"Mike Mitchell, Walt Dohrn","Jonathan Aibel, Glenn Berger, Erica Rivinoja",English,"United States, India, United Kingdom, Germany",97374
+tt1700841,Sausage Party,2016-08-12,89 min,"Animation, Adventure, Comedy",6.10,"Greg Tiernan, Conrad Vernon","Kyle Hunter, Ariel Shaffir, Seth Rogen",English,"Canada, United States",221851
+tt1800302,Gold,2017-01-27,120 min,"Biography, Crime, Drama",6.70,Stephen Gaghan,"Patrick Massett, John Zinman","English, Indonesian",United States,72435
+tt1860357,Deepwater Horizon,2016-09-30,107 min,"Action, Drama, History",7.10,Peter Berg,"Matthew Michael Carnahan, Matthew Sand, David Barstow",English,"United States, Hong Kong",194702
+tt2015381,Guardians of the Galaxy,2014-08-01,121 min,"Action, Adventure, Comedy",8.00,James Gunn,"James Gunn, Nicole Perlman, Dan Abnett",English,"United States, United Kingdom",1340806
+tt2034800,The Great Wall,2017-02-17,103 min,"Action, Adventure, Fantasy",5.90,Yimou Zhang,"Carlo Bernard, Doug Miro, Tony Gilroy","English, Mandarin, Spanish","China, Japan, United States",156740
+tt2094766,Assassin's Creed,2016-12-21,115 min,"Action, Adventure, Sci-Fi",5.60,Justin Kurzel,"Michael Lesslie, Adam Cooper, Bill Collage","English, Spanish, Arabic","United States, France, United Kingdom, Hong Kong, Taiwan, Malta, Spain, Canada",216763
+tt2119532,Hacksaw Ridge,2016-11-04,139 min,"Biography, Drama, History",8.10,Mel Gibson,"Robert Schenkkan, Andrew Knight","English, Japanese",United States,655217
+tt2322441,Fifty Shades of Grey,2015-02-13,125 min,"Drama, Romance, Thriller",4.20,Sam Taylor-Johnson,"Kelly Marcel, E.L. James",English,United States,350774
+tt2404435,The Magnificent Seven,2016-09-23,132 min,"Action, Adventure, Drama",6.90,Antoine Fuqua,"Akira Kurosawa, Shinobu Hashimoto, Hideo Oguni","English, North American Indian, Spanish","United States, Australia",240944
+tt2488496,Star Wars: Episode VII - The Force Awakens,2015-12-18,138 min,"Action, Adventure, Sci-Fi",7.70,J.J. Abrams,"Lawrence Kasdan, J.J. Abrams, Michael Arndt",English,"United States, United Kingdom",1011547
+tt2543164,Arrival,2016-11-11,116 min,"Drama, Mystery, Sci-Fi",7.90,Denis Villeneuve,"Eric Heisserer, Ted Chiang","English, Mandarin, Russian","Canada, United States",836259
+tt2592614,Resident Evil: The Final Chapter,2017-01-27,107 min,"Action, Horror, Sci-Fi",5.50,Paul W.S. Anderson,Paul W.S. Anderson,English,"Germany, Canada",105852
+tt2660888,Star Trek Beyond,2016-07-22,122 min,"Action, Adventure, Sci-Fi",7.00,Justin Lin,"Simon Pegg, Doug Jung, Gene Roddenberry",English,"China, United States",266992
+tt2674426,Me Before You,2016-06-03,110 min,"Drama, Romance",7.40,Thea Sharrock,Jojo Moyes,"English, French",United States,320643
+tt2709768,The Secret Life of Pets,2016-07-08,86 min,"Animation, Adventure, Comedy",6.50,Chris Renaud,"Cinco Paul, Ken Daurio, Brian Lynch",English,"Japan, United States",230647
+tt2802144,Kingsman: The Secret Service,2015-02-13,129 min,"Action, Adventure, Comedy",7.70,Matthew Vaughn,"Jane Goldman, Matthew Vaughn, Mark Millar","English, Arabic, Swedish","United Kingdom, United States",762593
+tt2911666,John Wick,2014-10-24,101 min,"Action, Crime, Thriller",7.50,Chad Stahelski,Derek Kolstad,"English, Russian, Hungarian",United States,802507
+tt2975590,Batman v Superman: Dawn of Justice,2016-05-25,151 min,"Action, Adventure, Sci-Fi",6.40,Zack Snyder,"Bob Kane, Bill Finger, Jerry Siegel",English,"United States, Morocco",781615
+tt3183660,Fantastic Beasts and Where to Find Them,2016-11-18,132 min,"Adventure, Family, Fantasy",7.20,David Yates,J.K. Rowling,"English, Central Khmer","United Kingdom, United States, Canada",531437
+tt3263904,Sully,2016-09-09,96 min,"Biography, Drama",7.40,Clint Eastwood,"Todd Komarnicki, Chesley Sullenberger, Jeffrey Zaslow",English,United States,315970
+tt3286560,The Last Face,2017-07-28,130 min,"Action, Adventure, Drama",5.00,Sean Penn,Erin Dignam,English,United States,5659
+tt3289956,The Autopsy of Jane Doe,2016-12-21,86 min,"Horror, Mystery, Thriller",6.80,André Øvredal,"Ian Goldberg, Richard Naing",English,United Kingdom,155892
+tt3385516,X-Men: Apocalypse,2016-03-27,144 min,"Action, Adventure, Sci-Fi",6.80,Bryan Singer,"Simon Kinberg, Bryan Singer, Michael Dougherty","English, Polish, German, Arabic, Egyptian (Ancient)",United States,483756
+tt3416532,A Monster Calls,2017-01-06,108 min,"Adventure, Drama, Family",7.40,J.A. Bayona,"Patrick Ness, Siobhan Dowd",English,"United States, Spain, United Kingdom",97272
+tt3470600,Sing,2016-12-21,108 min,"Animation, Comedy, Family",7.10,"Garth Jennings, Christophe Lourdelet",Garth Jennings,"English, Japanese","Japan, United States",206430
+tt3498820,Captain America: Civil War,2016-03-06,147 min,"Action, Sci-Fi",7.80,"Anthony Russo, Joe Russo","Christopher Markus, Stephen McFeely, Joe Simon","English, German, Xhosa, Russian, Romanian","United States, Germany, Iceland, United Kingdom",907492
+tt3521164,Moana,2016-11-23,107 min,"Animation, Adventure, Comedy",7.60,"Ron Clements, John Musker, Don Hall","Jared Bush, Ron Clements, John Musker","English, French",United States,425722
+tt3620452,Don't Fuck in the Woods,2016-10-25,73 min,Horror,2.90,Shawn Burkett,Shawn Burkett,English,United States,1970
+tt3631112,The Girl on the Train,2016-10-07,112 min,"Crime, Drama, Mystery",6.50,Tate Taylor,"Erin Cressida Wilson, Paula Hawkins","English, Spanish","United States, India",206094
+tt3640424,Allied,2016-11-23,124 min,"Action, Drama, Romance",7.10,Robert Zemeckis,Steven Knight,"English, French, German, Arabic","United Kingdom, United States, China",176688
+tt3717252,Underworld: Blood Wars,2017-01-06,91 min,"Action, Crime, Drama",5.80,Anna Foerster,"Cory Goodman, Kyle Ward, Kevin Grevioux","English, Saami","United States, Czech Republic, Netherlands, Sweden, Canada",84352
+tt3741834,Lion,2017-01-06,118 min,"Biography, Drama",8.00,Garth Davis,"Saroo Brierley, Luke Davies","English, Hindi, Bengali","United Kingdom, Australia, United States",261221
+tt3748528,Rogue One: A Star Wars Story,2016-12-16,133 min,"Action, Adventure, Sci-Fi",7.80,Gareth Edwards,"Chris Weitz, Tony Gilroy, John Knoll",English,United States,739966
+tt3778010,Dead Awake,2017-03-12,99 min,"Drama, Horror, Mystery",4.60,Phillip Guzman,Jeffrey Reddick,English,United States,3652
+tt3783958,La La Land,2016-12-25,128 min,"Comedy, Drama, Music",8.00,Damien Chazelle,Damien Chazelle,"English, Cantonese","United States, Hong Kong",735553
+tt3896738,Hounds of Love,2017-03-12,108 min,"Crime, Drama, Thriller",6.50,Ben Young,Ben Young,English,Australia,14033
+tt4034228,Manchester by the Sea,2016-12-16,137 min,Drama,7.80,Kenneth Lonergan,Kenneth Lonergan,English,United States,343388
+tt4160708,Don't Breathe,2016-08-26,88 min,"Crime, Horror, Thriller",7.10,Fede Alvarez,"Fede Alvarez, Rodo Sayagues",English,"United States, Hungary",322928
+tt4196776,Jason Bourne,2016-07-29,123 min,"Action, Thriller",6.60,Paul Greengrass,"Paul Greengrass, Christopher Rouse, Robert Ludlum","English, Greek, German, Japanese","United States, China, Spain, Japan, Iceland, Germany, Italy",252924
+tt4276820,The Founder,2017-01-20,115 min,"Biography, Drama",7.20,John Lee Hancock,Robert Siegel,"English, Yiddish",United States,197975
+tt4501244,Why Him?,2016-12-23,111 min,Comedy,6.20,John Hamburg,"John Hamburg, Ian Helfer, Jonah Hill","English, Central Khmer",United States,131421
+tt4540710,Miss Sloane,2016-12-09,132 min,Drama,7.50,John Madden,Jonathan Perera,English,"United Kingdom, France, Canada, United States",87136
+tt4550098,Nocturnal Animals,2016-12-09,116 min,"Drama, Thriller",7.40,Tom Ford,"Tom Ford, Austin Wright",English,"United States, China",331564
+tt4572514,Patriots Day,2017-01-13,133 min,"Action, Crime, Drama",7.30,Peter Berg,"Peter Berg, Matt Cook, Joshua Zetumer","English, Chinese, Arabic","Hong Kong, United States",119811
+tt4651520,Bad Moms,2016-07-29,100 min,Comedy,6.20,"Jon Lucas, Scott Moore","Jon Lucas, Scott Moore",English,"United States, China",139491
+tt4680182,Colossal,2017-04-21,109 min,"Comedy, Drama, Fantasy",6.20,Nacho Vigalondo,Nacho Vigalondo,"English, Korean","United States, Spain, Canada, South Korea",72122
+tt4776998,The Promise,2017-04-21,133 min,"Action, Adventure, Drama",6.10,Terry George,"Terry George, Robin Swicord","English, Armenian, German, French, Turkish","Spain, United States",179878
+tt4799064,Mindhorn,2017-03-05,89 min,"Action, Adventure, Comedy",6.30,Sean Foley,"Julian Barratt, Simon Farnaby",English,"United Kingdom, France, United States",13885
+tt4824302,Mother's Day,2016-04-29,118 min,"Comedy, Drama, Romance",5.70,Garry Marshall,"Anya Kochoff, Matthew Walker, Tom Hines","English, Spanish",United States,41449
+tt4846340,Hidden Figures,2017-01-06,127 min,"Biography, Drama, History",7.80,Theodore Melfi,"Allison Schroeder, Theodore Melfi, Margot Lee Shetterly",English,United States,278285
+tt4972582,Split,2017-01-20,117 min,"Horror, Thriller",7.30,M. Night Shyamalan,M. Night Shyamalan,English,"United States, Japan",605255
+tt4975722,Moonlight,2016-11-18,111 min,Drama,7.40,Barry Jenkins,"Barry Jenkins, Tarell Alvin McCraney",English,United States,346242
+tt5195412,Wakefield,2017-03-19,106 min,Drama,6.30,Robin Swicord,"E.L. Doctorow, Robin Swicord, Nathaniel Hawthorne",English,United States,18477

@@ -1,5 +1,9 @@
-def get_genre_data(db):
-    cursor = db.cursor()
+from typing import Any, Dict, List
+
+Main_DS = Dict[str, List[Any]]
+
+def get_genre_data(db: Any) -> Main_DS:
+    cursor: Any = db.cursor()
     cursor.execute("""
                     SELECT 
                         M.Genre as Genre, COUNT(*) as Quantity, FORMAT(AVG(D.score), 2) as Score
@@ -11,15 +15,15 @@ def get_genre_data(db):
                     ORDER BY 
                         COUNT(*) DESC
                     """)
-    data = cursor.fetchall()
-    organized_dataset = {'Genre': [record[0] for record in data],
-                        'Quantity': [record[1] for record in data],
-                        'Score': [float(record[2]) for record in data]}
+    data: Any = cursor.fetchall()
+    organized_dataset: Main_DS = {'Genre': [record[0] for record in data],
+                                'Quantity': [record[1] for record in data],
+                                'Score': [float(record[2]) for record in data]}
     cursor.close()
     return organized_dataset
 
-def get_top10_scores(db):
-    cursor = db.cursor()
+def get_top10_scores(db: Any) -> Main_DS:
+    cursor: Any = db.cursor()
     cursor.execute("""
                     SELECT
                         M.imdbID as IMDB, M.Title as Title, D.Score as Score
@@ -30,15 +34,15 @@ def get_top10_scores(db):
                         D.Score DESC
                     LIMIT 10
                     """)
-    data = cursor.fetchall()
-    dataset = {'IMDB': [record[0] for record in data],
-               'Title': [record[1] for record in data],
-               'Score': [record[2] for record in data]}
+    data: Any = cursor.fetchall()
+    dataset: Main_DS = {'IMDB': [record[0] for record in data],
+                        'Title': [record[1] for record in data],
+                        'Score': [record[2] for record in data]}
     cursor.close()
     return dataset
 
-def get_year_data(db):
-    cursor = db.cursor()
+def get_year_data(db: Any) -> Main_DS:
+    cursor: Any = db.cursor()
     cursor.execute("""
                     SELECT
                         COUNT(*) as Quantity, M.Year as Year, CAST(FORMAT(AVG(Score), 2) AS DECIMAL(5, 2)) as avg_score
@@ -49,16 +53,16 @@ def get_year_data(db):
                         M.Year
                     ORDER BY Quantity DESC
                     """)
-    data = cursor.fetchall()
-    dataset = {
+    data: Any = cursor.fetchall()
+    dataset: Main_DS = {
         'Quantity': [record[0] for record in data],
         'Year': [record[1] for record in data],
         'avg_score': [record[2] for record in data]
     }
     return dataset
 
-def get_month_data(db):
-    cursor = db.cursor()
+def get_month_data(db: Any) -> Main_DS:
+    cursor: Any = db.cursor()
     cursor.execute('''
                     SELECT
                         CASE
@@ -85,16 +89,16 @@ def get_month_data(db):
                     ORDER BY
                         AVG(D.Score) DESC, Quantity DESC
                 ''')
-    data = cursor.fetchall()
-    dataset = {
+    data: Any = cursor.fetchall()
+    dataset: Main_DS = {
             'Month': [record[0] for record in data],
             'Quantity': [record[1] for record in data],
             'avg_score': [record[2] for record in data]
     }
     return dataset
 
-def get_everything(db):
-    cursor = db.cursor()
+def get_everything(db: Any) -> Main_DS:
+    cursor: Any = db.cursor()
     cursor.execute("""
                 SELECT
                     M.imdbID as IMDB,
@@ -112,8 +116,8 @@ def get_everything(db):
                     Movies as M INNER JOIN Details as D
                     ON M.imdbID = D.imdbID
                 """)
-    data = cursor.fetchall()
-    dataset = {
+    data: Any = cursor.fetchall()
+    dataset: Main_DS = {
         'IMDB': [record[0] for record in data],
         'Title': [record[1] for record in data],
         'Release_date': [record[2] for record in data],
