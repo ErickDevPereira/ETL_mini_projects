@@ -1,23 +1,25 @@
-def cleanNumber(string_number):
+from  typing import List, Any
+
+def cleanNumber(string_number: str) -> int:
     
     if not isinstance(string_number, str):
         raise TypeError("The 'string_number'argument must be a string!")
 
-    lst = []
+    lst: List[str] = []
     for char in string_number:
         if char != ',':
             lst.append(char)
-    num = int(''.join(lst))
+    num: int = int(''.join(lst))
     return num
 
-def cleanDate(string_date):
+def cleanDate(string_date: str) -> str:
 
     if not isinstance(string_date, str):
         raise TypeError("The 'string_date' argument must be string")
 
     try:
-        lst = string_date.split()
-        month = lst[1]
+        lst: List[str] = string_date.split()
+        month: str = lst[1]
         new_month = None
         match month:
             case 'Jan':
@@ -45,7 +47,7 @@ def cleanDate(string_date):
             case 'Dec':
                 new_month = '12'
         
-        new_date = lst[2] + '-' + new_month + '-' + lst[0]
+        new_date: str = lst[2] + '-' + new_month + '-' + lst[0]
         return new_date
     except:
         return '1850-10-10'
